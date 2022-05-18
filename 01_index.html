@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Ma première page HTML" >
+    <!--description sous le titre dans la recherche google-->
+    <meta name="author" content="Delia">
+
+    <meta name="keywords" content="html,page html,base html/css, ...">
+    <!--les mots clefs en rapport avec laa recherche que fera le visiteur, à partir de son importance-->
+   <title>Delia</title>
+   <!--titre du site apparisant dans l'onglet et en résultat de recherche google-->
+    
+<link rel="stylesheet" href="css/01_index.css">
+<!--relie le fichier HTML au fichier de mise en forme CSS(cascading style sheets)-->
+
+
+
+<!--lien pour les polices utilisées ikci via "google front"-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+</head><!--fin de balise head-->
+
+<body><!--corps de la page-->
+
+    <p>c'est ma prémiere page web ! le navigateur affiche le texte, les images etc... contenus dans le bloc de ma balise</p>
+   
+    <!--les titres-->
+    <h1>Titre 1</h1>
+    <h2>Titre 2</h2>
+    <h3>Titre 3</h3>
+    <h4>Titre 4</h4>
+    <h5>Titre 5</h5>
+    <h6>Titre 6</h6>
+
+    <p>Ceci est une phrase.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem saepe veniam natus sit, cumque, laborum et quasi soluta, quia repellendus optio qui molestias perspiciatis voluptatem illum ipsum blanditiis? Sequi, architecto.</p>
+
+    <p>le paragraphe sont délimités par la balise &lt;p></p>
+
+    <!--&lt; => ce type du code permet de ne pas interprèter notre balise p-->
+
+    <!--alt + Z pour faire le retour automatique à la ligne-->
+
+    &lt;/body>
+
+    <pre>Les numériques de Poissy 2022</pre>
+
+    <!--paragraphe préformaté-->
+    <!--Les retours à la ligne-->
+    <p>
+    <!--attention ne pas abuser du br et appliquer des espaces avec du css-->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Ducimus iure veritatis soluta est accusamus iusto, ab quod a, molestiae aliquid sunt officiis quam laborum?<br /> Aspernatur alias voluptate quia repellendus corporis!
+
+    </p>
+    <!--la disposition-->
+    <p style="text-align: right;">
+        Ce paragraphe sur deux 
+        <br />
+        lignes est disposé à droite
+    </p>
+
+<p style="text-align: left;">
+    Ce paragraphe sur deux 
+    <br />
+    lignes est disposé à gauche
+</p>
+
+
+<p style="text-align: center;">
+    Ce paragraphe sur deux 
+    <br />
+    lignes est disposé au centre
+</p>
+<!--lorem 100 permet de générer 50 mots de texte-->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure deleniti error maxime atque voluptatum ipsam nam. Facere nostrum aliquam, recusandae id eaque earum! Eveniet quae iusto ut sint tempora incidunt dignissimos earum ducimus est? Commodi error sed dolorem magnam nulla, sequi expedita. Provident nemo ipsa dolorem sed dolorum maiores, delectus vitae asperiores explicabo tenetur, necessitatibus hic distinctio tempora voluptates libero perspiciatis illum harum quibusdam nihil repellat ea? Cumque distinctio dolor magnam rerum, explicabo quam sunt soluta ea fuga voluptas voluptate amet eum odit aliquid impedit doloremque natus labore. Cumque doloremque a quis? Cumque, quasi fugit reiciendis cupiditate cum ratione aspernatur!
+
+        </p>
+
+    <code>
+
+         <pre>
+            voici la structure de base d'une page HTML  
+         &lt;!DOCTYPE html> 
+         &lt;html>   
+         &lt;head>  
+         &lt;title> &lt;/title>
+         &lt;/head>
+         &lt;body>
+         &lt;/body>
+         &lt;/html>  
+
+
+        </pre>
+    
+</code>
+
+<p>Quel es le role de ma balise &lt;hr /> ?</p>
+
+<hr /> <!--horizontal rule ==> barre horizontale-->
+
+<p>Elle insére une ligne séparatrice dans ma page HTML;</p>
+
+<p>bonjour, ceci est mon premièr fichier en html <strong>soyez indulgents</strong></p>
+
+<p>bonjour, ceci est mon premièr fichier en html <em>soyez indulgents</em></p>
+
+<p>bonjour, ceci est mon premièr fichier en html <mark>soyez indulgents</mark></p>
+
+<!--les listes--> 
+<!--non ordonées-->
+
+<ul>
+    <li>Chat</li>
+    <li>Chien</li>
+    <li>Cheval</li>
+</ul>
+
+<!--Ordonée(numerotée)-->
+<ol>
+    <li>Chat</li>
+    <li>Chien</li>
+    <li>Cheval</li>
+</ol>
+
+<!--les couleurs-->
+
+<p style="color:crimson">H</p>
+<p style="color:lightseagreen">T</p>
+<p style="color:darkgreen">M</p>
+<p style="color:navy">L</p>
+
+<br />
+
+<p style="color:#dc143c">H</p>
+<p style="color:#20b2aa">T</p>
+<p style="color:darkgreen">M</p>
+<p style="color:navy">L</p>
+<!--la couleur du fond-->
+
+<p style="background-color: cyan;">Bonjour</p>
+<p style="background-color: pink;">Hello</p>
+<p style="background-color: black; color: yellow;">Hi dear</p>
+
+<!--les liens-->
+<!--pour changer un fichier-->
+<link rel="stylesheet" href="css/01_index.css">
+<link rel="stylesheet" href="js/main.js">
+
+<!--Pour acceder à une URL (site web)-->
+
+<a href="https://coolors.co/a20021-f52f57-f79d5c-f3752b-ededf4" target="_blank">Site web coolors</a>
+
+<!--les images-->
+
+<img src="img/pink-324175_1920.jpg" alt="une branche" title="Une branche">
+<img src="img/wisteria-5133949_1920.jpg" alt="un arbre" title="un arbre ">
+<img src="img/japanese-cherry-3063992_1920.jpg" alt="japanes cherry">
+
+
+
+</body>
+</html>
