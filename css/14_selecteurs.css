@@ -1,0 +1,92 @@
+*{
+    font-family: sans-serif;/*police d'écriture*/
+}
+
+nav{
+    background-color: #000;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0; /*position à partir du haut de l'ecran*/
+    left: 0;/* position à partir de la gauche de l'écran*/
+    /* margin: 0 0 20px; */
+}
+
+nav a{
+    /* tous les liens à l'intériéur de la balise nav*/
+    float: left;/*e ffet flottant à gauche*/
+    text-decoration: none;/* pas d'héritage avec l'effet souligné comme standard pour les liens sous tous les nav*/
+    color: white;/* couleur du texte*/
+    line-height: 2.7rem;
+    padding: 0em 2em;/*marges intériéurs - on les fait dans le sens des aiguilles d'une montre (haut, droite, bas, gauche*/
+    font-size: 1.2em;/*taille du texte*/
+    transition: 1s;/*temps de transition lors du hover (sourvol de la souris) : ici 2 secondes */
+}
+
+nav a:hover{/* tous les liens au survol de la souris dans la nav */
+        background-color: #fda500;/*couleur de fond*/
+        color: #000;/*couleur du texte*/
+
+}
+
+/*1er container*/
+.container{
+    width: 70%;
+    margin: 4% auto;
+    background: #f1fcde;
+    padding: 2em;
+}
+
+mark{
+    background: #b5a7cf;
+}
+
+/*2éme container1*/
+.container1{
+    width: 70%;
+    margin: 2% auto;/*contraction pour 2% auto 2% auto*/
+    background: #f1fcde;
+    padding: 2em;
+}
+.container2, .container3{
+    width: 44.5%;
+    background: #f1fcde;
+    padding: 2%;
+    float: left;
+}
+.container2{
+    margin-right: 1.5%;
+}
+.container3{
+    margin-left: 1.5%;
+}
+/*5éme container*/
+.container4{
+    margin-top: 2em;
+}
+.clear{
+    clear: both;
+}
+
+.container3 ol li:nth-of-type(11){
+    border: 1px solid crimson;
+}
+
+.container3 ol li:first-child{
+    font-weight: 700;
+}
+.container3 ol li:nth-of-type(7){
+opacity: 0.5;
+}
+.container3 ol li:last-child{
+    color: darkred;
+}
+
+li{
+    border-color: orangered;
+    font-weight: 700;
+    opacity: 0.6;
+    color: brown;
+}
+
