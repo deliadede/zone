@@ -1,7 +1,30 @@
-/* MEDIA QUERIES PERMETTENT DE R26ARRANGER LA DISPOSITION DU SITE EN FONCTION DES TAILLES DE NAVIGATEUR EN PX 6 CF. VIEWPORTSITE.COM -3 TAILLES SUFFISENT
+/*
+MEDIA QUERIES PERMETTENT DE REARRANGER LA DISPOSITION DU SITE EN FONCTION DES TAILLES DE NAVIGATEUR EN PX 6 CF. VIEWPORTSITE.COM -3 TAILLES SUFFISENT
 ON PEUT FAIRE UNE FEULLE DE STYLE STANDARD ET UN CSS RIEN QUE POUR LE RESPONSIVE DE BASE LA ZONE EST ROUGE? SI LECRAN EST DE PLUS  DE 768PX ET JUSQU'à 992px la zone est orange*/
+
 .zone-adaptative{
 background: red;
 color: white;
 padding: 10px;
 }
+
+@media (min-width:768px) {
+    .zone-adaptative{
+        width:750px ;
+        background-color: orange;
+    }
+}
+@media (min-width: 922px) {
+    .zone-adaptative{
+        width:970px;
+        background :blue
+    }
+}
+
+@media (min-width:1200px) {
+    .zone-adaptative{
+        width: 1170px ;
+        background-color: green;
+    }
+}
+
