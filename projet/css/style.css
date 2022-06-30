@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2? family= Akshar:wght@300 & family= BIZ+UDPGothic:wght@700 & family= Blaka+Hollow & family= Cormorant+Garamond : wght@300 & family= Koulen & family= Kufam:ital@0;1 & family= Macondo & family= Open+Sans:ital,wght@0,400;1,300 & family= Roboto+Flex:opsz,wght@8..144,200 & famille= Roboto+Mono:wght@500 & famille= Roboto:ital,wght@0,100;0,400;1,100 & famille=Source+Sans+Pro:wght@300 & display=swap');
+
+body{
+    background-color: #f6f6f7;
+    margin: 10px 0;
+    width: 100%;
+    
+}
+
+header{
+    height: 600px ;
+    /* width: 100%; */
+    margin:auto ;/* Haut - droit & gauche - bas */
+    background-image: url(../img/planches.jpg);
+}
+
+
+h1{
+    text-align: left;
+}
+
+
+nav{
+  text-align: right;
+}
+
+
+nav ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+article{
+    width: 70%;/* largeur des articles  */
+    
+    margin: 2em auto; /* espacés les uns de autres et placé au centre hotizontalement  */
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section{
+    width: 100%;/* chaque section prend la moitier de l'article*/
+    text-align: center;/* aligne le contenu au centre*/
+
+}
+
+section text{
+width: 30%;
+}
+.cerf{
+    width: 20%;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+footer{
+    height: 90px;
+}
+
+.icones{
+    text-align: right;
+    color: rgb(244, 64, 223);
+}
+hr{
+    width: 20px;
+    height: 10px;
+    color: blueviolet;
+}
+main{
+    width: 100%;
+}
